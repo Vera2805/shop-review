@@ -46,16 +46,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Insert_admin_user.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/example/orderservice/OrderServiceTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/example/orderservice/ShopApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.orderservice.OrderServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.orderservice.OrderServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.orderservice.ShopApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.orderservice.ShopApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.orderservice.OrderServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.orderservice.OrderServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.orderservice.ShopApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.orderservice.ShopApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +75,19 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -131,7 +135,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.6896552&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;4afa25e939f554149f91ee890f69c04c&quot;
   }
 }</component>
@@ -142,7 +146,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.orderservice">
+  <component name="RunManager" selected="Spring Boot.OrdersApplication">
     <configuration name="OrderServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orderservice" />
       <extension name="coverage">
@@ -204,11 +208,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="orderservice" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="orderservice" type="JUnit" factoryName="JUnit">
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="shop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="shop" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,7 +263,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.orderservice" />
         <item itemvalue="JUnit.ShopApplicationTests" />
         <item itemvalue="JUnit.OrderServiceTest (1)" />
         <item itemvalue="JUnit.OrderServiceTest.deleteOrder_NotOwner_ThrowsException" />
@@ -272,7 +288,8 @@
       <workItem from="1779261512495" duration="7495000" />
       <workItem from="1779273982865" duration="1631000" />
       <workItem from="1779275709534" duration="23232000" />
-      <workItem from="1779470216651" duration="3738000" />
+      <workItem from="1779470216651" duration="6469000" />
+      <workItem from="1779480072863" duration="5985000" />
     </task>
     <task id="LOCAL-00001" summary="shop">
       <created>1778749564606</created>
